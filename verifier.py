@@ -7,7 +7,7 @@ URL = ("https://rdv.anct.gouv.fr/prendre_rdv?departement="
 
 # Phrase affichée quand il n'y a AUCUN créneau.
 # Si elle disparaît, c'est qu'un créneau est probablement apparu.
-PHRASE_AUCUN_CRENEAU = "zzzphrasebidonzzz"
+PHRASE_AUCUN_CRENEAU = "aucun créneau"
 
 TOKEN = os.environ["TELEGRAM_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
